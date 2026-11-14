@@ -1,0 +1,87 @@
+:root {
+  color-scheme: light;
+  font: 100%/1.75 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  color: #1b2723;
+  background: #f4f6f2;
+}
+
+body {
+  max-width: 48rem;
+  margin: auto;
+  padding: 1.25rem clamp(1rem, 4vw, 2.5rem) 3rem;
+}
+
+header, nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem 1.25rem;
+}
+
+header {
+  justify-content: space-between;
+  padding: 0.5rem 0 1.25rem;
+  border-bottom: 1px solid #c7d4ce;
+}
+
+.app-name {
+  font-weight: 750;
+}
+
+main {
+  padding: 1.25rem 0;
+}
+
+h1, h2 {
+  margin: 0;
+  color: #15382c;
+  line-height: 1.35;
+}
+
+h1 {
+  font-size: clamp(1.55rem, 5vw, 2.15rem);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin: 0.75rem 0;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: #155741;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: 2px solid #155741;
+  outline-offset: 0.2em;
+}
+
+nav a[aria-current="page"] {
+  font-weight: 700;
+}
+
+dl {
+  padding: 1rem 1.25rem;
+  border: 1px solid #c7d4ce;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0.15rem 0 0.75rem;
+}
+
+dd:last-child {
+  margin-bottom: 0;
+}
